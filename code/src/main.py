@@ -4,7 +4,7 @@ import os
 
 def detect_and_display_faces(image_path):
     # construct the path to the Haar cascade XML file
-    cascade_path = '/Users/larmetta001/Downloads/haarcascade_frontalface_default.xml'
+    cascade_path = 'haarcascade_frontalface_default.xml'
     # check if the cascade file exists
     if not os.path.exists(cascade_path):
         raise FileNotFoundError(f"Cascade file not found at {cascade_path}")
@@ -35,4 +35,6 @@ def detect_and_display_faces(image_path):
     plt.show()  # display the image
 
 # example usage
-detect_and_display_faces('/Users/larmetta001/Downloads/face.jpg')
+if __name__ == "__main__":
+    source = None # specify image source path
+    detect_and_display_faces(source)

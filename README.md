@@ -1,10 +1,10 @@
-# FaceDetection
+# ImageAndVideoFaceDetection
 
-This Python project performs facial recognition using local images, detecting and comparing faces with a database. It offers a simple interface for security applications or experimentation.
+This Python project performs facial recognition using local images and videos, detecting and comparing faces with a database. It offers a simple interface for security applications or experimentation.
 
 ## Description
 
-This Python project implements a facial recognition system using locally stored images. It leverages libraries to analyze images, detect faces, and compare them against an existing database. The project provides a simple interface to load images, detect faces, and return key information such as face locations and matches with known faces. It's an ideal solution for those looking to integrate face recognition into security applications, access control, or just experiment with the technology.
+This Python project implements a facial recognition system using locally stored images and videos. It leverages libraries to analyze visual content, detect faces, and compare them against an existing database. The project provides a simple interface to load images or videos, detect faces, and return key information such as face locations and matches with known faces. It's an ideal solution for those looking to integrate face recognition into security applications, access control, or simply experiment with the technology.
 
 ## Contents
 
@@ -19,5 +19,5 @@ To run the code in this repository, it is recommended to follow this step:
 - Clone the repository to your computer:
 
    ```bash
-   git clone https://github.com/lucaarmetta/FaceDetection
-   cd FaceDetection
+   git clone https://github.com/lucaarmetta/ImageAndVideoFaceDetection
+   cd ImageAndVideoFaceDetection
